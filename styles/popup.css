@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+}
+
+#popup {
+    width: 300px;
+    background-color: #0382AF;
+    padding: 0px 0px 5px;
+    color: white;
+    position: relative;
+    margin: 0px;
+    font: 300 16px/1.55 "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+textarea {
+    border-radius: 4px;
+    border: 2px solid grey;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    width: 95%;
+    height: 80%;
+    margin: auto;
+    display: block;
+    resize: none;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    margin: 0
+}
+
+button {
+    width: 95%;
+    padding: 16px 32px;
+    margin: 5px auto;
+    font-size: 20px;
+    color: #fff;
+    background-color: #4EA7C9;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.2);
+    text-shadow: 0 1px 1px rgba(0,0,0,.8);
+    font-weight: bold;
+    display: block;
+}
+
+.title {
+    padding-bottom: 0px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.box .title {
+    padding: 0px 5px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.box {
+    padding: 0px 5px 5px;
+}
+
+#CSSbox {
+    height: 150px;
+}
+
+#ACSSbox {
+    height: 75px;
+}
+
+#CtoA {
+    background-color: #81C0D7;
+}
+
+#AtoC {
+    background-color: #045d86;
+}
+
+#Undo {
+    background-color: grey;
+}
